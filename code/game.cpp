@@ -146,7 +146,7 @@ void game_init() {
 	InitWindow(1280, 720, "snake_3d");
 	SetTargetFPS(60);
 
-	shader = LoadShader("../code/vert.glsl", "../code/frag.glsl");
+	shader = LoadShader("shaders/vert.glsl", "shaders/frag.glsl");
 	
 	font_karmina = LoadFontEx("font/karmina.ttf", 32, 0, 0);
 	
